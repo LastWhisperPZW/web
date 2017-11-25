@@ -102,7 +102,7 @@ def get_blog(id):
         'blog': blog,
         'comments': comments
     }
-
+	
 @get('/register')
 def register():
     return {

@@ -17,7 +17,7 @@ env.sudo_user = 'root'
 env.hosts = ['39.108.217.35']
 
 db_user = 'root'
-db_password = '950209'
+db_password = 'azbyc123'
 
 _TAR_FILE = 'dist-awesome.tar.gz'
 
