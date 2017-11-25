@@ -20,21 +20,18 @@
     <meta charset="utf-8" />
     {% block meta %}<!-- block meta  -->{% endblock %}
     <title>{% block title %} ? {% endblock %} - LastWhisper</title>
-	<style>
-	body{ background-color:#292929}
-		#J_dotLine{
-			display: block;
-			margin: 0 auto;
-		}
-	</style>
+	
     <link rel="stylesheet" href="/static/css/uikit.min.css">
     <link rel="stylesheet" href="/static/css/uikit.almost-flat.min.css">
     <link rel="stylesheet" href="/static/css/awesome.css" />
+	<link rel="stylesheet" href="/static/css/autocomplete.css">
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/sha1.min.js"></script>
     <script src="/static/js/uikit.min.js"></script>
     <script src="/static/js/sticky.min.js"></script>
     <script src="/static/js/vue.min.js"></script>
+	<script src="/static/js/pagination.js"></script>
+	<script src="/static/js/autocomplete.js"></script>
     <script src="/static/js/awesome.js"></script>
     {% block beforehead %}<!-- before head  -->{% endblock %}
 </head>
@@ -63,7 +60,7 @@
 					</a>
 		
 				</li>
-                <li><a target="_blank" href="https://github.com/michaelliao/awesome-python3-webapp">
+                <li><a target="_blank" href="https://github.com/LastWhisper/web">
 						<i class="uk-icon-code">
 						</i> 源码
 					</a>
